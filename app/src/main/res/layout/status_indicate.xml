@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="horizontal">
+
+    <com.waytone.animationdemo.indicate.StatusIndicateView
+        android:id="@+id/siv_first"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="2dp"
+        android:background="#7F8C8C"/>
+
+
+    <com.waytone.animationdemo.indicate.StatusIndicateView
+        android:id="@+id/siv_second"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+    <View
+        android:layout_width="80dp"
+        android:layout_height="2dp"
+        android:background="#7F8C8C"/>
+
+
+    <com.waytone.animationdemo.indicate.StatusIndicateView
+        android:id="@+id/siv_third"
+        android:layout_width="40dp"
+        android:layout_height="40dp"/>
+
+</LinearLayout>

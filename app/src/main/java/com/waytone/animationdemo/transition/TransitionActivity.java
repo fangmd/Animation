@@ -1,4 +1,4 @@
-package com.waytone.animationdemo;
+package com.waytone.animationdemo.transition;
 
 import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
@@ -26,6 +26,7 @@ import com.transitionseverywhere.Slide;
 import com.transitionseverywhere.TransitionManager;
 import com.transitionseverywhere.TransitionSet;
 import com.transitionseverywhere.extra.Scale;
+import com.waytone.animationdemo.R;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -270,8 +271,6 @@ public class TransitionActivity extends AppCompatActivity {
             isReturnAnimation = !isReturnAnimation;
 
         });
-
-
 
 
     }

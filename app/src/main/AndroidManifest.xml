@@ -20,9 +20,15 @@
             android:label="@string/title_activity_animation_one"
             android:theme="@style/AppTheme.NoActionBar">
         </activity>
-        <activity android:name=".TransitionActivity">
+        <activity android:name=".transition.TransitionActivity">
         </activity>
-        <activity android:name=".TransitionExplodeActivity">
+        <activity android:name=".transition.TransitionExplodeActivity">
+        </activity>
+        <activity android:name=".VectorAct">
+        </activity>
+        <activity android:name=".textv.TextViewAct">
+        </activity>
+        <activity android:name=".indicate.IndicateAct">
         </activity>
     </application>
 

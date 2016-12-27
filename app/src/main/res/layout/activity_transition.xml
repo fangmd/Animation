@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal"
-    tools:context="com.waytone.animationdemo.TransitionActivity">
+    tools:context="com.waytone.animationdemo.transition.TransitionActivity">
 
     <LinearLayout
         android:layout_width="0dp"
@@ -37,6 +37,7 @@
                 android:visibility="gone"/>
 
         </LinearLayout>
+
 
         <LinearLayout
             android:id="@+id/ll_container_two"

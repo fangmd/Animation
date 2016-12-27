@@ -1,4 +1,4 @@
-package com.waytone.animationdemo;
+package com.waytone.animationdemo.transition;
 
 import android.graphics.Rect;
 import android.support.v7.app.AppCompatActivity;
@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+
+import com.waytone.animationdemo.R;
+import com.waytone.animationdemo.RVAdapter;
 
 public class TransitionExplodeActivity extends AppCompatActivity {
 

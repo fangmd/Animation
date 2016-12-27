@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_text_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.waytone.animationdemo.textv.TextViewAct">
+
+    <LinearLayout
+        android:id="@+id/ll_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="stop"
+            android:text="Stop / IDLE"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="start"
+            android:text="Start / LOADING"/>
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="pause"
+            android:text="Pause / Selected"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll_btn"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="ok"
+            android:text="OK"/>
+
+    </LinearLayout>
+
+
+    <com.waytone.animationdemo.textv.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#ccc"
+        android:visibility="gone"/>
+
+
+    <com.waytone.animationdemo.textv.CircleView
+        android:id="@+id/circleView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/ll_btn"
+        android:visibility="gone"/>
+
+    <com.waytone.animationdemo.indicate.StatusIndicateView
+        android:id="@+id/status_indicate_view"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/ll_btn2"/>
+
+
+</RelativeLayout>
